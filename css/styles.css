@@ -82,6 +82,7 @@ h2 {
 p{
     font-size: 18px;
     line-height: 1.2;
+    font-family: "Montserrat";
 }
 
 nav {
@@ -126,6 +127,7 @@ nav ul li:hover {
     object-fit: cover;
     border-radius: 50%;
     border: 10px solid black;
+    box-shadow: 0 0 9px #008080; 
 }
 
 #inicio, #contacto {
@@ -199,6 +201,7 @@ div a span {
  #contacto .article2 a img {
     width: 75px;
     height: 75px;
+    filter: drop-shadow(0 0 2px #008080); 
     transition: filter 0.3s ease;
 }
 
@@ -207,7 +210,7 @@ div a span {
 }
 
 
-/* crear cuadro que salta */
+/* crear movimiento que salta */
 
 @keyframes squareAnim {
     0% {
