@@ -173,6 +173,7 @@ div a span {
     align-items: center;
     /* margin-bottom: 9rem; */
     padding-bottom: 10rem;
+    animation: squareAnim 2s infinite linear;
 }
 
 #contacto .article2 a img {
@@ -208,15 +209,6 @@ div a span {
 
 /* crear cuadro que salta */
 
-.square {
-    width: 2rem;
-    aspect-ratio: 1;
-    border-radius: 0.2rem;
-    box-shadow: 0 0 0.2rem #555;
-    animation: squareAnim 2s infinite linear;
-    
-}
-
 @keyframes squareAnim {
     0% {
         transform: translateY(0.05rem);
@@ -243,10 +235,4 @@ div a span {
         transform: translateY(0.10rem);
     }
 }
-
-.img-vuelta {
-    width: 2rem;
-}
-
-
 
