@@ -206,4 +206,47 @@ div a span {
 }
 
 
+/* crear cuadro que salta */
+
+.square {
+    width: 2rem;
+    aspect-ratio: 1;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.2rem #555;
+    animation: squareAnim 2s infinite linear;
+    
+}
+
+@keyframes squareAnim {
+    0% {
+        transform: translateY(0.05rem);
+    }
+
+    20% {
+        transform: translateY(0.4rem);
+    }
+
+    50%,
+    60% {
+        transform: translateY(0.64rem);
+    }
+
+    62% {
+        transform: translateY(0.45rem);
+    }
+
+    80% {
+        transform: translateY(0.10rem);
+    }
+
+    100% {
+        transform: translateY(0.10rem);
+    }
+}
+
+.img-vuelta {
+    width: 2rem;
+}
+
+
 
