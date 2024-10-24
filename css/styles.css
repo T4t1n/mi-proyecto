@@ -61,6 +61,7 @@ main {
     margin: 0 auto;
 } */
 
+/* Inicio Header*/
 header {
     display: flex;
     align-items: center;
@@ -79,15 +80,6 @@ h1 {
     font-size: 36px;
 }
 
-h2 {
-    font-size: 28px;
-}
-
-p{
-    font-size: 18px;
-    line-height: 1.2;
-    font-family: "Montserrat";
-}
 
 nav {
     display: flex;
@@ -118,6 +110,19 @@ nav ul li:hover {
     border-bottom: 2px solid black;
     
 }
+
+/* Fin header */
+
+p{
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: "Montserrat";
+}
+
+h2 {
+    font-size: 28px;
+}
+
 .contenedor2 {
     width: 400px;
     margin: 0 auto;
@@ -179,7 +184,7 @@ div a span {
     align-items: center;
     /* margin-bottom: 9rem; */
     padding-bottom: 10rem;
-    animation: squareAnim 2s infinite linear;
+    /* animation: squareAnim 2s infinite linear; */
 }
 
 #contacto .article2 a img {
@@ -216,7 +221,7 @@ div a span {
 
 /* crear movimiento que salta */
 
-@keyframes squareAnim {
+/*@keyframes squareAnim {
     0% {
         transform: translateY(0.05rem);
     }
@@ -241,5 +246,5 @@ div a span {
     100% {
         transform: translateY(0.10rem);
     }
-}
+}/*
 
